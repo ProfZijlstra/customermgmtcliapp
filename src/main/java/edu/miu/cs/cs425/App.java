@@ -14,7 +14,8 @@ public class App {
         System.out.println( "Hello World of Maven!" );
         var customers = List.of(
             new Customer(1, "Ana Smith", LocalDate.of(1987, 12, 24)),
-            new Customer(2, "Bob Jones", LocalDate.of(1942, 6, 17))
+            new Customer(2, "Bob Jones", LocalDate.of(1942, 6, 17)),
+            new Customer(3, "Christian Bale", LocalDate.of(1974, 1, 30))
         );
         customers.forEach(System.out::println);
     }
